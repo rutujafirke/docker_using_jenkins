@@ -1,6 +1,8 @@
 package study;
 public class DockerExampleApplication {
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 	public static void main(String[] args) {
 		System.out.println(checkIfInputIsAnEvenNumber(122));
 		// Testing in the main method
